@@ -30,7 +30,7 @@ int main() {
     SetConsoleCP(CP_UTF8);
     try {
         // Code description: DATABASE INITIALIZATION
-        Storage::Database db("data/dating_app.db");
+        Storage::Database db("../data/dating_app.db");
         db.initialize();
 
         // Code description: MANAGERS INITIALIZATION

@@ -1,0 +1,10 @@
+build/
+cmake-build-debug/
+.vscode/
+*.exe
+*.dll
+*.lib
+*.o
+*.obj
+*.db
+*.sqlite
