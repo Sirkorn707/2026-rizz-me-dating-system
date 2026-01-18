@@ -1,0 +1,8 @@
+Users database structure:
+-> ID
+-> Username
+-> Password (Hashed)
+-> Age
+-> Description
+-> Gender
+-> Interests
