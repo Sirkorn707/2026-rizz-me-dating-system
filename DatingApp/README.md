@@ -59,7 +59,7 @@
 **Windows**  
     ```bash
     ./DatingApp.exe
-    ```  
+    ```
 **Linux**  
     ```bash
     ./DatingApp
