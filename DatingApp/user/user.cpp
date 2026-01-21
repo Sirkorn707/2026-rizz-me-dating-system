@@ -26,7 +26,6 @@ namespace User {
         id_ = newId;
     }
 
-    // CHECK HERE!
     void User::setAge(int newAge) {
         if (newAge >= 18 && newAge < 120) {
             age_ = newAge;
