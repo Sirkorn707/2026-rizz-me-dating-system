@@ -26,8 +26,10 @@
 
 /* THE Main Function :D */
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
+    #ifdef _WIN32
+        SetConsoleOutputCP(CP_UTF8);
+        SetConsoleCP(CP_UTF8);
+    #endif
     try {
         // Code description: DATABASE INITIALIZATION
         Storage::Database db("../data/dating_app.db");
