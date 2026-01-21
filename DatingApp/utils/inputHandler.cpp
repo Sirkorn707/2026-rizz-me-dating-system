@@ -4,7 +4,7 @@
     File: inputHandler.cpp
     Description: Implementation file for the input handler.
 */
-#include "InputHandler.h"
+#include "inputHandler.h"
 #include <iostream>
 #include <limits> // Used functions: std::numeric_limits, std::streamsize
 

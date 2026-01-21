@@ -7,9 +7,9 @@
 #ifndef UTILS_TESTDATA_H
 #define UTILS_TESTDATA_H
 
-#include "../user/UserManager.h"
-#include "../security/PasswordManager.h"
-#include "Colors.h"
+#include "../user/userManager.h"
+#include "../security/passwordManager.h"
+#include "colors.h"
 #include <iostream>
 #include <vector>
 #include <string>

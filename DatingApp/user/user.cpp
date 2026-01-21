@@ -4,7 +4,7 @@
     File: user.cpp
     Description: Implementation file for the user class.
 */
-#include "User.h"
+#include "user.h"
 #include <iostream>
 
 namespace User {

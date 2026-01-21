@@ -4,7 +4,7 @@
     File: matchAlgorithm.cpp
     Description: Implementation of the match algorithm.
 */
-#include "MatchAlgorithm.h"
+#include "matchAlgorithm.h"
 #include <cmath> // Used functions: std::abs
 #include <vector>
 #include <string>

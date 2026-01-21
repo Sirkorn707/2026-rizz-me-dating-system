@@ -4,10 +4,10 @@
     File: terminalUI.cpp
     Description: Implementation file for the terminal user interface.
 */
-#include "TerminalUI.h"
-#include "DisplayManager.h"
-#include "../utils/InputHandler.h"
-#include "../utils/HelperFunctions.h"
+#include "terminalUI.h"
+#include "displayManager.h"
+#include "../utils/inputHandler.h"
+#include "../utils/helperFunctions.h"
 #include "../security/passwordManager.h"
 #include <iostream>
 #include <sstream> // Used functions: std::stringstream

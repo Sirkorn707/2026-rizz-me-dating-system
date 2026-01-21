@@ -7,7 +7,7 @@
 #ifndef MATCHING_MATCHALGORITHM_H
 #define MATCHING_MATCHALGORITHM_H
 
-#include "../user/User.h"
+#include "../user/user.h"
 
 namespace Matching {
 

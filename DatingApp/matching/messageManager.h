@@ -9,8 +9,8 @@
 
 #include <string>
 #include <vector>
-#include "../storage/Database.h"
-#include "Message.h"
+#include "../storage/database.h"
+#include "message.h"
 
 namespace Matching {
 

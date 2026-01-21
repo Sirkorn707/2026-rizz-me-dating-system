@@ -4,7 +4,7 @@
     File: database.cpp
     Description: Implementation file for the database management class.
 */
-#include "Database.h"
+#include "database.h"
 #include <iostream>
 
 namespace Storage {

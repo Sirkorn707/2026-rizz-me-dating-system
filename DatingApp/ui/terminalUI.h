@@ -7,9 +7,9 @@
 #ifndef UI_TERMINALUI_H
 #define UI_TERMINALUI_H
 
-#include "../user/UserManager.h"
-#include "../matching/MessageManager.h"
-#include "../user/User.h"
+#include "../user/userManager.h"
+#include "../matching/messageManager.h"
+#include "../user/user.h"
 
 namespace UI {
 

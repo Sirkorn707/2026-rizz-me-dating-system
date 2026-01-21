@@ -4,7 +4,7 @@
     File: profile.cpp
     Description: Implementation file for the user profile.
 */
-#include "Profile.h"
+#include "profile.h"
 #include <sstream> // Used functions: std::stringstream
 
 namespace User {

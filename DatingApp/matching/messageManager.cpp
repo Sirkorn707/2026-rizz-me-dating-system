@@ -4,8 +4,8 @@
     File: messageManager.cpp
     Description: Implementation of the message manager.
 */
-#include "MessageManager.h"
-#include "../utils/HelperFunctions.h"
+#include "messageManager.h"
+#include "../utils/helperFunctions.h"
 #include <iostream>
 #include <string>
 

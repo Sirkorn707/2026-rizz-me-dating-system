@@ -4,12 +4,12 @@
     File: userManager.cpp
     Description: Implementation file for the user manager.
 */
-#include "UserManager.h"
+#include "userManager.h"
 #include <iostream>
 #include <string>
 #include <algorithm> // Used functions: std::find, std::sort
-#include "../utils/HelperFunctions.h"
-#include "../matching/MatchAlgorithm.h"
+#include "../utils/helperFunctions.h"
+#include "../matching/matchAlgorithm.h"
 
 namespace User {
 

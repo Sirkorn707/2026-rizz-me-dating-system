@@ -7,8 +7,8 @@
 #ifndef USERMANAGER_H
 #define USERMANAGER_H
 
-#include "User.h"
-#include "../storage/Database.h"
+#include "user.h"
+#include "../storage/database.h"
 #include <memory>
 #include <utility> // used functions: std::pair
 #include <vector>

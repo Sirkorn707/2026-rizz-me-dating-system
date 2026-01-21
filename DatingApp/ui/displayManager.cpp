@@ -4,7 +4,7 @@
     File: displayManager.cpp
     Description: Implementation file for the display manager.
 */
-#include "DisplayManager.h"
+#include "displayManager.h"
 #include <iostream>
 #include <cstdlib> // Used functions: std::system
 
