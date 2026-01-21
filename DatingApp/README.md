@@ -36,6 +36,7 @@
     ```
 2.  **Przejdź do folderu projektu, utwórz nowy folder do budowania:**
     ```bash
+    cd 2026-rizz-me-dating-system
     cd DatingApp
     mkdir build
     cd build
