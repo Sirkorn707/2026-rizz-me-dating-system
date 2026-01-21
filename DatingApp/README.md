@@ -1,44 +1,44 @@
-# 💘 Rizz.me Dating System
+# 💘Rizz.me Dating System💘
 
 > **Terminalowa aplikacja randkowa napisana w C++. Znajdź swoją drugą połówkę w konsoli!**
 
-![C++](https://img.shields.io/badge/C++-17-blue.svg?style=flat&logo=c%2B%2B)
-
-## 📖 O projekcie
+## O projekcie
 
 **Rizz.me** to symulator systemu randkowego działający w pełni w terminalu. Projekt powstał w celu nauki zaawansowanych struktur obiektowego C++, obsługi baz danych oraz architektury aplikacji. Aplikacja pozwala na tworzenie profili, "swipowanie" potencjalnych partnerów oraz czatowanie z dopasowanymi użytkownikami. 
 
-## ✨ Główne funkcjonalności
+## Główne funkcjonalności
 
-* **🔐 System Użytkowników:**
+* **System Użytkowników:**
     * Rejestracja i logowanie (haszowane hasła).
     * Walidacja wieku (18+) i płci.
     * Edycja profilu (Bio, Hobby, Wiek).
-* **❤️ System Dopasowań (Matching):**
+* **System Dopasowań (Matching):**
     * Algorytm obliczania zgodności (%) na podstawie wspólnych zainteresowań.
     * Mechanizm Swipe (Tak/Nie).
-* **💬 System Wiadomości:**
+* **System Wiadomości:**
     * Prywatne czaty z dopasowanymi osobami.
     * Historia rozmów zapisywana w bazie danych.
-* **🛠️ Panel Administratora:**
+* **Panel Administratora:**
     * Zarządzanie użytkownikami (usuwanie).
     * Podgląd statystyk bazy danych.
 
-## 🚀 Uruchamianie aplikacji na Windowsie
+## Uruchamianie aplikacji na Windowsie
 
 ### Wymagania
-* Kompilator C++ wspierający standard C++17 (np. GCC, MinGW, MSVC).
+* Kompilator C++ wspierający standard C++17 (np. GCC, MinGW).
 * Biblioteka **SQLite3**.
 
-### Instalacja i Kompilacja
+### Instalacja i Kompilacja (Windows)
 
 1.  **Sklonuj repozytorium:**
     ```bash
-    git clone [https://github.com/Sirkorn707/2026-rizz-me-dating-system.git](https://github.com/Sirkorn707/2026-rizz-me-dating-system.git)
+    git clone https://github.com/Sirkorn707/2026-rizz-me-dating-system.git
     ```
-2.  **Przejdź do folderu projektu:**
+2.  **Przejdź do folderu projektu, utwórz nowy folder do budowania:**
     ```bash
     cd DatingApp
+    mkdir build
+    cd build
     ```
 3.  **Skompiluj projekt:**
     ```bash
@@ -49,19 +49,17 @@
     ./DatingApp.exe
     ```
 
-## 🐧 Uruchamianie na Linuxie
+## Uruchamianie na Linuxie
 
 1.  **Pobierz repozytorium i zainstaluj biblioteki:**
-    Otwórz terminal, pobierz kod i zainstaluj niezbędne zależności (kompilator, CMake, SQLite):
     ```bash
-    git clone [https://github.com/Sirkorn707/2026-rizz-me-dating-system.git](https://github.com/Sirkorn707/2026-rizz-me-dating-system.git)
+    git clone https://github.com/Sirkorn707/2026-rizz-me-dating-system.git
     cd DatingApp
     sudo apt update
     sudo apt install g++ cmake make libsqlite3-dev
     ```
 
-2.  **Stwórz folder budowania i skompiluj:**
-    Zaleca się budowanie w osobnym katalogu, aby zachować porządek.
+2.  **Stwórz nowy folder do budowania i skompiluj:**
     ```bash
     mkdir build_linux
     cd build_linux
@@ -74,7 +72,7 @@
     ./DatingApp
     ```
 
-## 🏗️ Struktura Projektu
+## Struktura Projektu
 
 ```text
 DatingApp/
