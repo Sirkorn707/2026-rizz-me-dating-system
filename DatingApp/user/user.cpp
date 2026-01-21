@@ -56,28 +56,4 @@ namespace User {
         return os;
     }
 
-    // CHECK HERE - OLD FUNCTION PROBABLY TO BE REPLACED
-    int User::calculateMatchScore(const User& otherUser) const {
-        int score = 0;
-        
-        auto myInterests = this->getProfile().getInterests();
-        auto otherInterests = otherUser.getProfile().getInterests();
-
-        if (myInterests.empty() || otherInterests.empty()) {
-            return 0; 
-        }
-
-        for (const auto& myHobby : myInterests) {
-            for (const auto& otherHobby : otherInterests) {
-                if (myHobby == otherHobby) {
-                    score += 20; 
-                }
-            }
-        }
-
-        if (score > 100) score = 100;
-        return score;
-    }
-
-    
 }

@@ -59,11 +59,6 @@ namespace User {
         */
         friend std::ostream& operator<<(std::ostream& os, const User& user);
 
-        /* Function description: User calculateMatchScore()
-            EN: Calculates the match score with another user based on profile compatibility.
-            PL: Oblicza wynik dopasowania z innym użytkownikiem na podstawie zgodności profili.
-        */
-        int calculateMatchScore(const User& otherUser) const;
     private:
         int id_;
         std::string username_;
