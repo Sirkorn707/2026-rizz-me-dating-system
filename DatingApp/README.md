@@ -55,7 +55,7 @@
     ```bash
     make
     ```
-6.  **Uruchom aplikację:**
+6.  **Uruchom aplikację:**  
     **Windows**
     ```bash
     ./DatingApp.exe
