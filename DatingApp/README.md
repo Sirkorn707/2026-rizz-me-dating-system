@@ -22,7 +22,7 @@
     * Zarządzanie użytkownikami (usuwanie).
     * Podgląd statystyk bazy danych.
 
-## Uruchamianie aplikacji na Windowsie
+## Uruchamianie aplikacji
 
 ### Wymagania
 * Kompilator C++ wspierający standard C++17 (np. GCC, MinGW).
@@ -56,11 +56,11 @@
     make
     ```
 6.  **Uruchom aplikację:**
->**Windows**
+>**Windows**  
     ```bash
     ./DatingApp.exe
-    ```
->**Linux**
+    ```  
+>**Linux**  
     ```bash
     ./DatingApp
     ```
