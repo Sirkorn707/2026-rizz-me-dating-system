@@ -28,51 +28,39 @@
 * Kompilator C++ wspierający standard C++17 (np. GCC, MinGW).
 * Biblioteka **SQLite3**.
 
-### Instalacja i Kompilacja (Windows)
-
+### Instalacja i Kompilacja
+0.  **Jeżeli jesteś na urządzeniu z systemem Linux/MAC:**
+    ```bash
+    sudo apt update
+    sudo apt install g++ cmake make libsqlite3-dev
+    ```
 1.  **Sklonuj repozytorium:**
     ```bash
     git clone https://github.com/Sirkorn707/2026-rizz-me-dating-system.git
     ```
-2.  **Przejdź do folderu projektu, utwórz nowy folder do budowania:**
+2.  **Przejdź do folderu projektu:**
     ```bash
-    cd 2026-rizz-me-dating-system
+    cd 2026-rizz-me-dating-system/DatingApp
     ```
-    ```bash
-    cd DatingApp
-    ```
+3.  **Utwórz nowy folder (budowanie):**
     ```bash
     mkdir build
     cd build
     ```
-3.  **Skompiluj projekt:**
+4.  **Skonfiguruj CMake:**
     ```bash
     cmake ..
     ```
-4.  **Uruchom aplikację:**
+5.  **Skompiluj projekt (TYLKO LINUX):**
+    ```bash
+    make
+    ```
+6.  **Uruchom aplikację:**
+>**Windows**
     ```bash
     ./DatingApp.exe
     ```
-
-## Uruchamianie na Linuxie
-
-1.  **Pobierz repozytorium i zainstaluj biblioteki:**
-    ```bash
-    git clone https://github.com/Sirkorn707/2026-rizz-me-dating-system.git
-    cd DatingApp
-    sudo apt update
-    sudo apt install g++ cmake make libsqlite3-dev
-    ```
-
-2.  **Stwórz nowy folder do budowania i skompiluj:**
-    ```bash
-    mkdir build_linux
-    cd build_linux
-    cmake ..
-    make
-    ```
-
-3.  **Uruchom aplikację:**
+>**Linux**
     ```bash
     ./DatingApp
     ```
